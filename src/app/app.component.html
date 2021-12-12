@@ -4,4 +4,10 @@
     <h1>{{ obj | json }}</h1>
 </div>
 
-<button pButton (click)="mostrarNombre()" label="Cambiar Nombre"></button>
+<button pButton icon="pi pi-bell" class="p-button-help" iconPos="right" (click)="mostrarNombre()" label="Cambiar Nombre"></button>
+
+
+
+<p-card [header]="nombre | titlecase" subheader="Esto es un subheader">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!
+</p-card>
